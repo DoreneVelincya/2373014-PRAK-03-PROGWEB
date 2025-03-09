@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Profile</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: #ccc;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Edit Profile</h2>
+    <table>
+        <tr>
+            <td rowspan="4" style="text-align:center;">
+                <img src="profile.jpg" alt="Profile Picture" width="100"><br>
+                <button>Upload</button>
+            </td>
+            <td>Name</td>
+            <td>Tim Berners-Lee</td>
+        </tr>
+        <tr>
+            <td>Position</td>
+            <td>
+                <select>
+                    <optgroup label="Programmer">
+                        <option>Senior Programmer</option>
+                        <option>Junior Programmer</option>
+                    </optgroup>
+                    <optgroup label="System Analyst">
+                        <option>Senior Analyst</option>
+                        <option>Junior Analyst</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" value="admin"></td>
+        </tr>
+        <tr>
+            <td>Confirm Password</td>
+            <td><input type="password" value="****"></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align:center;">
+                <button type="reset">Reset</button>
+                <button type="submit">Update</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
