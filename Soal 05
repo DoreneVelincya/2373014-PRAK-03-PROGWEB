@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Events</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 300px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .date {
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .summary {
+            font-size: 14px;
+        }
+        .link {
+            color: purple;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>NEWS & EVENTS</h2>
+        <iframe src="news_summary.html" name="newsFrame" width="100%" height="150" scrolling="no" frameborder="0"></iframe>
+        <br>
+        <a href="news_detail.html" target="newsFrame" class="link">more...</a>
+    </div>
+</body>
+</html>
